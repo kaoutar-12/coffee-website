@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"); */
+
+@font-face {
+  font-family: "Pacifico";
+  src: local("Pacifico"), url(/fonts/Pacifico-Regular.ttf);
+}
+
+:root {
+  --firstcoloralt: #2b1712;
+  --firstcolormedium: #492d26;
+  --firstcolorlight: #65463e;
+  --secondcolor: #ddb66f;
+  --textcolor: #2e2624;
+  --textcolorlight: #5b4c48;
+  --titlecolor: #847571;
+  --whitecolor: #ffffff;
+  --bodycolor: #ffefeb;
+  --containercolor: #ffffff;
+}
+
+
+
+.dashed-border {
+  border: 3px dashed #847571;
+  border-top: transparent;
+
+  border-image: repeating-linear-gradient(
+      90deg,
+      #847571 0,
+      #847571 20px,
+      transparent 2px,
+      transparent 30px
+    )
+    50;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
