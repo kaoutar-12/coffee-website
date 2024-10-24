@@ -6,7 +6,7 @@ import { MdNavigateNext } from "react-icons/md";
 const HomeSection = () => {
   return (
     <>
-      <section className="flex w-screen max-md bg-gradient-to-t from-firstcoloralt to-firstcolormedium justify-center pt-10 gap-8 pb-24">
+      <section id="home" className="flex w-screen max-md bg-gradient-to-t from-firstcoloralt to-firstcolormedium justify-center pt-10 gap-8 pb-24">
         <div className="container max-md:w-80 flex items-center justify-center lg:items-start flex-row-reverse max-lg:flex-col gap-10 lg:gap-24">
           <div className="flex flex-col justify-center max-lg:items-center gap-10 w-80 max-md:w-full md:pt-20">
             <span className="text-secondcolor text-sm">

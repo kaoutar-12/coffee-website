@@ -10,7 +10,7 @@ import { LuCopyright } from "react-icons/lu";
 const ContactSection = () => {
   return (
     <>
-      <section className="bg-firstcoloralt bg-[url('/bg-coffee-beans.svg')] rounded-t-[56px] left-0 -top-36 relative flex justify-center">
+      <section id="contact" className="bg-firstcoloralt bg-[url('/bg-coffee-beans.svg')] rounded-t-[56px] left-0 -top-36 relative flex justify-center">
         <div className="flex xl:gap-40 flex-col max-w-screen-3xl gap-24 w-screen pb-32 md:pb-20">
           <div className="flex xl:pt-32 flex-col xl:flex-row  xl:items-center xl:gap-96 justify-center gap-10">
             <div className="flex xl:items-start  flex-col gap-5 lg:justify-start justify-center items-center h-full">

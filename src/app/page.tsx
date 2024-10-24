@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <div className="w-full" />
       <main className=" w-screen h-screen">
-        <HomeSection />
+        <HomeSection  />
         <AboutSection />
         <StepsSection />
         <TestimonialSection />

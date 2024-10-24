@@ -6,7 +6,7 @@ type Props = {};
 const StepsSection = (props: Props) => {
   return (
     <>
-      <section className="pb-32 bg-white rounded-t-[56px] left-0 -top-36 relative flex justify-center">
+      <section id="steps" className="pb-32 bg-white rounded-t-[56px] left-0 -top-36 relative flex justify-center">
         <div className="w-screen 4xl:pr-28 3xl:pr-24 3xl:pl-28  max-w-screen-3xl pt-10 flex items-center flex-col max-mdl:gap-16 md:flex-row-reverse">
           <div className="flex flex-col max-sm:items-center gap-7 md:w-2/4">
             <span className="text-firstcoloralt font-pacifico md:pl-5 text-[28px]">
